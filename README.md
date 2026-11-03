@@ -35,7 +35,8 @@ I uploaded a normal image as my profile avatar and captured the corresponding HT
 
 📸 **Screenshot 1 — Initial Image Upload**
 
-<!-- Paste Screenshot Here -->
+<img width="763" height="232" alt="Initial image upload" src="https://github.com/user-attachments/assets/3da7a30b-d1c0-44fb-8ca6-5f6b42017a2e" />
+
 
 ### 2. Filter the Request in Burp Suite
 
@@ -45,7 +46,8 @@ I located the request associated with the uploaded avatar and sent it to Repeate
 
 📸 **Screenshot 2 — Image Request in Burp Suite**
 
-<!-- Paste Screenshot Here -->
+<img width="672" height="540" alt="Image request in burpsuite" src="https://github.com/user-attachments/assets/af2bf3f3-4c1d-4e96-82ac-0c9f0e27b99e" />
+
 
 ### 3. Modify the Uploaded File
 
@@ -63,7 +65,8 @@ This script reads the contents of the target file and returns them in the HTTP r
 
 📸 **Screenshot 3 — PHP Web Shell Preparation**
 
-<!-- Paste Screenshot Here -->
+<img width="1287" height="650" alt="Shell preparation" src="https://github.com/user-attachments/assets/424aa3dc-f8c5-42e8-a740-e9165a6a39fd" />
+
 
 ### 4. Access the Uploaded PHP File
 
@@ -73,7 +76,8 @@ I sent the request to Repeater and modified the request path to access `exploit.
 
 📸 **Screenshot 4 — Request Sent to Repeater**
 
-<!-- Paste Screenshot Here -->
+<img width="1028" height="757" alt="File sent to repeater" src="https://github.com/user-attachments/assets/dd751b8a-9ea1-437c-979c-2d46c57ddbb0" />
+
 
 ### 5. Retrieve the Secret
 
@@ -83,7 +87,8 @@ The response revealed the contents of `/home/carlos/secret`.
 
 📸 **Screenshot 5 — Secret Retrieved from Server**
 
-<!-- Paste Screenshot Here -->
+<img width="1081" height="553" alt="code retrieved from server" src="https://github.com/user-attachments/assets/0c0bfa93-44e8-4159-990c-9e441fccaf5d" />
+
 
 ### 6. Submit the Secret and Complete the Lab
 
@@ -93,7 +98,9 @@ The lab confirmed that the challenge was successfully solved.
 
 📸 **Screenshot 6 — Lab Successfully Completed**
 
-<!-- Paste Screenshot Here -->
+<img width="757" height="381" alt="password found" src="https://github.com/user-attachments/assets/dd5838ed-2b6d-49d1-9770-f807cd270657" />
+<img width="1600" height="852" alt="completed successfully" src="https://github.com/user-attachments/assets/855befb9-c190-443e-ba55-b5199c654976" />
+
 
 ## 🔍 Vulnerability Analysis
 
